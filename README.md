@@ -1,6 +1,6 @@
 # OgmaDrive Standalone Application
 
-This repository contains Mac OS X and Windows x64 standalone applications for [OgmaDrive](https://github.com/ogmacorp/OgmaDrive). OgmaDrive performs [online machine learning](https://en.wikipedia.org/wiki/Online_machine_learning) using a `predictive hierarchy` applied to `vehicle driving assistance` ([ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)). The predictive hierarchy requires only a front-facing camera and steering angle as input. Which it then learns from, and predicts the next desired steering angle.
+This repository contains Mac OS X, Linux (Ubuntu 16), and Windows x64 standalone applications for [OgmaDrive](https://github.com/ogmacorp/OgmaDrive). OgmaDrive performs [online machine learning](https://en.wikipedia.org/wiki/Online_machine_learning) using a `predictive hierarchy` applied to `vehicle driving assistance` ([ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)). The predictive hierarchy requires only a front-facing camera and steering angle as input. Which it then learns from, and predicts the next desired steering angle.
 
 OgmaDrive uses the [Unity](https://unity3d.com/) engine, with custom C# scripts that create and use predictive hierarchies from two similar implementations. An initial menu allows the user to choose between the two predictive hierarchy implementations:
 
@@ -21,15 +21,15 @@ alt="Self Driving Car Learns Online and On-board on Raspberry Pi 3" width="480" 
 
 ## EOgmaNeo implementation screenshots
 
-![EOgmaNeo version](./OgmaDrive_EOgmaNeo.jpg)
+![EOgmaNeo version](./OgmaDrive_EOgmaNeo.JPG)
 
-![EOgmaNeo version predicting](./OgmaDrive_EOgmaNeo_Predicting.jpg)
+![EOgmaNeo version predicting](./OgmaDrive_EOgmaNeo_Predicting.JPG)
 
 ## OgmaNeo implementation screenshots
 
 ![OgmaNeo version](./OgmaDrive_OgmaNeo.jpg)
 
-![OgmaNeo version predicting](./OgmaDrive_OgmaNeo_Predicting.jpg)
+![OgmaNeo version predicting](./OgmaDrive_OgmaNeo_Predicting.JPG)
 
 ## License and Copyright
 
