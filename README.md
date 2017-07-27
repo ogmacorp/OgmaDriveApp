@@ -9,15 +9,19 @@ OgmaDrive uses the [Unity](https://unity3d.com/) engine, with custom C# scripts 
 
 Each implementation provide a hands-free C# car controller script that follows a central spline around a procedurally generated track, the spline is used to initially assist in teaching the predictive hierarchy the relationship between desired steering angle and processed camera input. After the _first_ lap, hierarchy prediction confidence metrics are used to determine when to alternate between further training or taking control and autonomously drive the vehicle. Using only the front-facing camera as input to the hierarchy, that then predicts the steering angle based on it's acquired knowledge.
 
-Refer to the [OgmaDrive](https://github.com/ogmacorp/OgmaDrive) repository for further details.
-
-The [OgmaNeo](https://github.com/ogmacorp/OgmaNeo/) implementation assumes that your system has the appropriate graphics drivers with support for OpenCL v1.2
+Refer to the [OgmaDrive](https://github.com/ogmacorp/OgmaDrive) repository for further implementation details, and the [Unity](https://unity3d.com/) project used to create the standalone version found in this repository.
 
 The [EOgmaNeo](https://github.com/ogmacorp/EOgmaNeo/) version has been optimized the most for this self-driving task, and is a SoC/Embedded system ready version. We currently use and test this implementation on a Raspberry Pi3 controlling an R/C car. Refer to the [EOgmaDrive](https://github.com/ogmacorp/EOgmaDrive/) repository for further details. To see the R/C car in action using EOgmaNeo refer to the following YouTube video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0ibVhtuQkZA
 " target="_blank"><img src="http://img.youtube.com/vi/0ibVhtuQkZA/0.jpg" 
 alt="Self Driving Car Learns Online and On-board on Raspberry Pi 3" width="480" height="360" border="1"/></a>
+
+## Requirements
+
+The [OgmaNeo](https://github.com/ogmacorp/OgmaNeo/) implementation assumes that your system has the appropriate graphics drivers with support for [OpenCL](https://www.khronos.org/opencl/) v1.2 (and above).
+
+The [EOgmaNeo](https://github.com/ogmacorp/EOgmaNeo/) implementation requires that your system has SFML and OpenCV properly installed. On Windows system this also includes making sure that paths to the [SFML](https://www.sfml-dev.org/) and [OpenCV](http://opencv.org/) DLL file directories are in your PATH environment variable.
 
 ## EOgmaNeo implementation screenshots
 
