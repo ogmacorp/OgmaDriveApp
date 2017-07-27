@@ -25,15 +25,15 @@ The [EOgmaNeo](https://github.com/ogmacorp/EOgmaNeo/) implementation requires th
 
 ## EOgmaNeo implementation screenshots
 
-![EOgmaNeo version](./OgmaDrive_EOgmaNeo.JPG)
+![EOgmaNeo version](./OgmaDrive_EOgmaNeo.jpg)
 
-![EOgmaNeo version predicting](./OgmaDrive_EOgmaNeo_Predicting.JPG)
+![EOgmaNeo version predicting](./OgmaDrive_EOgmaNeo_Predicting.jpg)
 
 ## OgmaNeo implementation screenshots
 
 ![OgmaNeo version](./OgmaDrive_OgmaNeo.jpg)
 
-![OgmaNeo version predicting](./OgmaDrive_OgmaNeo_Predicting.JPG)
+![OgmaNeo version predicting](./OgmaDrive_OgmaNeo_Predicting.jpg)
 
 ## License and Copyright
 
